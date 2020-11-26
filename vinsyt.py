@@ -83,7 +83,6 @@ if __name__ == '__main__':
     landing_url = 'https://app.vinsyt.com'
     login_url = 'https://app.vinsyt.com/site/login'
     report_url = 'https://app.vinsyt.com/report-model'
-    # main()
     file_name = 'Result.csv'
     csv_header = [['YEAR', 'MAKE', 'MODEL', 'FEATURES', 'HOW TO VIDEOS', 'GALLERY', 'PDF']]
     write_csv(lines=csv_header, file_name=file_name)
