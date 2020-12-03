@@ -76,7 +76,6 @@ def loop():
 
 
 if __name__ == '__main__':
-    print('----- Start -----')
     username = 'admin'
     password = 'C@rm@il09'
     s = requests.Session()
@@ -87,4 +86,3 @@ if __name__ == '__main__':
     csv_header = [['YEAR', 'MAKE', 'MODEL', 'FEATURES', 'HOW TO VIDEOS', 'GALLERY', 'PDF']]
     write_csv(lines=csv_header, file_name=file_name)
     loop()
-    print('---- The End ----')
